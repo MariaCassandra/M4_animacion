@@ -21,49 +21,49 @@ body {
 
 /* DESIGN FOR THE 5 STRIPES */
 
-.strip-1 {
+.stripe-1 {
     background-color: #244F75;
     width: 20%;
     height: 100vh;
     margin: 0.5rem 0.15rem;
     position: relative;
-    animation: strip1 1s;
+    animation: stripe1 1s;
 }
 
-.strip-2 {
+.stripe-2 {
     background-color: #60BFBF;
     width: 20%;
     height: 100vh;
     margin: 0.5rem 0.15rem;
     position: relative;
-    animation: strip2 1s;
+    animation: stripe2 1s;
 }
 
-.strip-3 {
+.stripe-3 {
     background-color: #8C4B7E;
     width: 20%;
     height: 100vh;
     margin: 0.5rem 0.15rem;
     position: relative;
-    animation: strip3 1s;
+    animation: stripe3 1s;
 }
 
-.strip-4 {
+.stripe-4 {
     background-color: #F8BB44;
     width: 20%;
     height: 100vh;
     margin: 0.5rem 0.15rem;
     position: relative;
-    animation: strip4 1s;
+    animation: stripe4 1s;
 }
 
-.strip-5 {
+.stripe-5 {
     background-color: #F24B4B;
     width: 20%;
     height: 100vh;
     margin: 0.5rem 0.15rem;
     position: relative;
-    animation: strip5 1s;
+    animation: stripe5 1s;
 }
 
 /* EFFECTS AND ANIMATIONS FOR THE 5 STRIPES*/
@@ -90,7 +90,7 @@ body {
 
 /* KEYFRAMES */
 
-@keyframes strip1 {
+@keyframes stripe1 {
     0% {
         -webkit-transform: translate3d(-100%, 0, 0);
         transform: translate3d(-100%, 0, 0);
@@ -101,7 +101,7 @@ body {
     }
 }
 
-@keyframes strip2 {
+@keyframes stripe2 {
     0% {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
@@ -112,7 +112,7 @@ body {
     }
 }
 
-@keyframes strip3 {
+@keyframes stripe3 {
     0% {
         -webkit-transform: translate3d(0, -100%, 0);
         transform: translate3d(0, -100%, 0);
@@ -123,7 +123,7 @@ body {
     }
 }
 
-@keyframes strip4 {
+@keyframes stripe4 {
     0% {
         -webkit-transform: translate3d(0, 100%, 0);
         transform: translate3d(0, 100%, 0);
@@ -134,7 +134,7 @@ body {
     }
 }
 
-@keyframes strip5 {
+@keyframes stripe5 {
     0% {
         -webkit-transform: translate3d(100%, 0, 0);
         transform: translate3d(100%, 0, 0);
